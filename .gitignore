@@ -1,0 +1,88 @@
+# =============================================
+# Data & Training Files (Large / Sensitive)
+# =============================================
+training/
+*.mat
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.npy
+*.npz
+*.csv
+*.edf
+*.bdf
+
+# =============================================
+# Python
+# =============================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+
+# Virtual Environments
+venv/
+env/
+.env/
+.venv/
+ENV/
+
+# Distribution / Packaging
+dist/
+build/
+*.egg-info/
+*.egg
+.eggs/
+
+# =============================================
+# Jupyter Notebooks
+# =============================================
+.ipynb_checkpoints/
+*.ipynb
+
+# =============================================
+# ML / Deep Learning Artifacts
+# =============================================
+# Model weights & checkpoints
+*.pt
+*.pth
+*.ckpt
+*.pb
+*.onnx
+saved_models/
+checkpoints/
+outputs/
+runs/
+logs/
+wandb/
+mlruns/
+
+# =============================================
+# IDEs & Editors
+# =============================================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# =============================================
+# OS Files
+# =============================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =============================================
+# Misc
+# =============================================
+*.log
+.env
+.env.*
+ ⚡Dell ❯❯ git pull --rebase origin main                                      
+error: cannot pull with rebase: Your index contains uncommitted changes.      
+error: Please commit or stash them.
+ DESKTOP-QARA7G4    D:\Sleep_EEG_emotions_classfication  ➜ (  main)   46ms   8:08 PM   
+ ⚡Dell ❯❯
